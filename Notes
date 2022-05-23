@@ -1,0 +1,59 @@
+Postman
+*Postman is an API platform for developers to design, build, test and iterate their APIs. 
+*Postman is an application used for API testing.
+*It is an HTTP client that tests HTTP requests, utilizing a graphical user interface, through which we obtain different types of responses that need to be subsequently validated.
+
+Webservice
+*It is service offered by web
+*Webservice is two types 1.SOAP 2.REST
+*SOAP Simple Object Access Protocol-- Medium-HTTP(POST), Format-XML
+*REST Representational state transfer--Medium-HTTP(POST-create, GET--Read, PUT--update, DELETE--remove),Format-XML/JSON/TEXT
+
+WSDL
+*Web Services Description Language
+*It is an XML based interface used to describe functionalities of the webservices
+
+UDDI
+*Universal Description Discovery and Integration
+*It is an XML Standard for publishing and find web services
+
+SOAP Web Services
+*Any WebServices that follows SOAP Specifications is called SOAP Web Services
+*SOAP Webservices specifications are Basic & Extended
+
+Basic
+*SOAP, WSDL, UDDI
+
+Extended
+*Security related
+
+*SOAP follows XML Format & XML Messages follows SOAP message format(Envelop, Header(Optional), Body)
+
+Rest
+*Webservices that follows Rest Principles are called as RestFull WebServices
+
+Principles of Rest are:
+
+*Uniform Interface
+Resource-Everything is resource
+URI-we can access any resource & data by using URI
+
+*Stateless
+No need to store the state of all client & server communication on the server
+Server doesnot maintain the state of the session
+
+*Cacheable
+Happens at client side
+In a response to the request server send the back the some details regarding the request details of the client
+Client uses the chache control to cache the resource or not
+
+*Layered System
+Multiple layers exists between client & server
+
+*Code On Demand
+Ability to download and execute the code at client side
+
+
+Authentication--Validates who u r
+
+Authorization-- What are the access we have
